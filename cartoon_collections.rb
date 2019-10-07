@@ -3,7 +3,7 @@ def roll_call_dwarves(name_list)
 end
 
 def summon_captain_planet(calls)
-  corrected_calls = calls.map {|n| "#{n.capitalize}+!"}
+  calls.map {|n| "#{n.capitalize}+!"}
 end
 
 def long_planeteer_calls# code an argument here
